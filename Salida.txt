@@ -1,0 +1,18 @@
+/* Salida del Programa Calculadora, calcula operaciones matematicas del tipo suma, resta, multiplicación
+* y división y hace comentarios respecto a estas mismas.
+* Juan Cruz Poveda
+* 12/04/15
+*/
+
+Ingrese el primer termino:
+2
+Ingrese el operador:
++
+Ingrese el segundo termino:
+2
+Resultado de su operacion basica: 4
+Sus dos terminos eran iguales, hubiera sido
+mas conveniente usar una multiplicacion por 2 (*2)
+--------------------------------------
+Process exited after 2.962 seconds with return value 0
+Presione una tecla para continuar...

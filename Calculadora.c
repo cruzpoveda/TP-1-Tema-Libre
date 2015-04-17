@@ -6,10 +6,10 @@
 
 #include <iostream>
 using namespace std;
-
 int main() {
-	int a, b;
+	int a, b, x;
 	char c;
+	bool d=true;
 	string res;
 	cout << "Ingrese el primer termino:\n";
 	cin >> a;
@@ -23,18 +23,23 @@ int main() {
 	}
 	cout << res;
 	if (c == '+'){
-	cout << a+b;
+	x = a+b;
+	d=false;
 	}
 	if (c == '-'){
-	cout << a-b;
+	x = a-b;
 	}
 	if (c == '*'){
-	cout << a*b;
+	x = a*b;
 	}
 	if (c == '/'){
-	cout << a/b;
+	x = a/b;
 	}
-	if (a == b && c == '+'){
+	cout << x;
+	if (a == b && not d){
 	cout << "\nSus dos terminos eran iguales, hubiera sido mas conveniente usar una multiplicacion por 2 (*2).";
+	}
+	if (x == 0 || x%2!=0){
+	cout << "\nEl resultado no es par.";	
 	}
 }
